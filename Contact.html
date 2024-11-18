@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobEntry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+      <!-- ---navbar--- -->
+      <nav class="navbar navbar-expand-lg bg-light fixed-top" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder text-success fs-1" href="#">JobEntry</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active mt-2 fw-bold" id="hoome" href="index.html" id="about">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active  mt-2 fw-bold" href="About.html" id="about">ABOUT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active mt-2 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="about">
+                  JOB
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="JobList.html" id="hmmm">Job List</a></li>
+                  <li><a class="dropdown-item" href="Job details.html" id="hmmm">Job Details</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active mt-2 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="about">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Category.html" id="hmmm">Job Category</a></li>
+                  <li><a class="dropdown-item" href="Testimonial.html" id="hmmm">Testimonial</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mt-2 fw-bold text-success" aria-current="page"  href="Contact.html" id="about">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-success text-light text-center mt-2 px-3 rounded fs-5" href="#">Post A Job</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+     </nav>
+    <!-- ---navbar End--- -->
+     
+    <!-- ---carosel--- -->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <!-- Carousel items -->
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <div class="content text-center us">
+                <div class="heading-box mt-5">
+                  <h1 id="us">Contact</h1>
+                </div>
+                <div class="">
+                    <p><span class="text-success">HOME</span> / <span class="text-success">PAGES</span> / Contact</p>
+                </div>
+                
+              </div>
+            </div>
+        </div>
+      
+        <!-- Custom container for controls -->
+        <div class="custom-carousel-controls">
+          <button class="carousel-control-prev custom-control" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next custom-control" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+    <!-- ---carosel End--- --> <br><br><br>
+
+    <div class="text-center mt-5">
+        <h1><b>Contact For Any Query</b></h1>
+    </div>
+
+    <div class="Query">
+      <div class="usa">
+        <div class="dot"><i class="fa-solid fa-location-dot" id="dot"></i></div>
+        <div class="york">123 Street, New, York, USA</div>
+      </div>
+      <div class="usa">
+        <div class="dot"><i class="fa-solid fa-envelope" id="dot"></i></div>
+        <div class="york"><p>info@example.com</p></div>
+      </div>
+      <div class="usa">
+        <div class="dot"><i class="fa-solid fa-phone" id="dot"></i></div>
+        <div class="york">+1 123 456 7890</div>
+      </div>
+    </div><br>
+
+    <section class="container my-5">
+      <div class="row g-4">
+          <!-- Map Section -->
+          <div class="col-lg-6">
+              <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.021056849719!2d-122.4194154846817!3d37.77492977975909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b5a5b0e97%3A0x80869e7a0a0a0a0a!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1616171845355!5m2!1sen!2sus" 
+                  width="100%" 
+                  height="450" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy">
+              </iframe>
+          </div>
+  
+          <!-- Form Section -->
+          <div class="col-lg-6">
+              <p class="text-muted">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code, and you're done. <a href="#" class="text-decoration-underline">Download Now</a>.</p>
+              <form>
+                  <div class="row mb-3">
+                      <div class="col-md-6">
+                          <input type="text" class="form-control" placeholder="Your Name" required>
+                      </div>
+                      <div class="col-md-6">
+                          <input type="email" class="form-control" placeholder="Your Email" required>
+                      </div>
+                  </div>
+                  <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Subject" required>
+                  </div>
+                  <div class="mb-3">
+                      <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-success w-100">Send Message</button>
+              </form>
+          </div>
+      </div>
+    </section>
+    
+    
+
+        <!-- footer -->
+        <footer class="enn text-light pt-5 pb-4 mt-5">
+          <div class="container">
+              <div class="row">
+                  <!-- Company Column -->
+                  <div class="col-sm-6 col-lg-3 mb-4">
+                      <h5 class="fw-bold comp"><b>Company</b></h5>
+                      <ul class="list-unstyled">
+                          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+                          <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+                          <li><a href="#" class="text-light text-decoration-none">Our Services</a></li>
+                          <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                          <li><a href="#" class="text-light text-decoration-none">Terms & Condition</a></li>
+                      </ul>
+                  </div>
+                  
+                  <!-- Quick Links Column -->
+                  <div class="col-sm-6 col-lg-3 mb-4">
+                      <h5 class="fw-bold comp">Quick Links</h5>
+                      <ul class="list-unstyled">
+                          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+                          <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+                          <li><a href="#" class="text-light text-decoration-none">Our Services</a></li>
+                          <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                          <li><a href="#" class="text-light text-decoration-none">Terms & Condition</a></li>
+                      </ul>
+                  </div>
+                  
+                  <!-- Contact Column -->
+                  <div class="col-sm-6 col-lg-3 mb-4">
+                      <h5 class="fw-bold comp">Contact</h5>
+                      <p><i class="bi bi-geo-alt-fill me-2"></i>123 Street, New York, USA</p>
+                      <p><i class="bi bi-telephone-fill me-2"></i>+012 345 67890</p>
+                      <p><i class="bi bi-envelope-fill me-2"></i>info@example.com</p>
+                      <div>
+                          <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                          <a href="#" class="text-light me-3"><i class="bi bi-youtube"></i></a>
+                          <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+                      </div>
+                  </div>
+                  
+                  <!-- Newsletter Column -->
+                  <div class="col-sm-6 col-lg-3 mb-4">
+                      <h5 class="fw-bold comp">Newsletter</h5>
+                      <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                      <form class="d-flex">
+                          <input type="email" class="form-control me-2" placeholder="Your email">
+                          <button type="submit" class="btn btn-success">SignUp</button>
+                      </form>
+                  </div>
+              </div>
+              
+              <!-- Divider -->
+              <hr class="bg-secondary">
+              
+              <!-- Footer Bottom -->
+              <div class="row">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                      <p class="mb-0">&copy; Your Site Name, All Rights Reserved. Designed by <a href="#" class="text-light text-decoration-none">Obadimu Adedamola</a></p>
+                  </div>
+                  <div class="col-md-6 text-center text-md-end">
+                      <a href="#" class="text-light text-decoration-none me-3">Home</a>
+                      <a href="#" class="text-light text-decoration-none me-3">Cookies</a>
+                      <a href="#" class="text-light text-decoration-none me-3">Help</a>
+                      <a href="#" class="text-light text-decoration-none">FAQs</a>
+                  </div>
+              </div>
+              
+              <!-- Scroll to Top Button -->
+              <a href="#" class="btn btn-success btn-lg position-fixed bottom-0 end-0 m-4">
+                  <i class="bi bi-arrow-up"></i>
+              </a>
+          </div>
+      </footer>
+      
+      <!-- Bootstrap CSS and Icons -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+      
+      <!-- footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
